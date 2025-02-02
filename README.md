@@ -85,13 +85,11 @@ The system is divided into multiple layers:
 2. Copy Env Variable:  
    ```bash
    cp .env.example .env
-   `
+   
 3. Install the Dependency: 
    ```bash
    npm install
-   
-   `
 4. Run the Project: 
    ```bash
    npm run dev
-   `
+  
