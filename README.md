@@ -80,8 +80,8 @@ The system is divided into multiple layers:
 
 1. Clone the repository:  
    ```bash  
-   git clone https://github.com/your-username/class-booking-system.git  
-   cd class-booking-system  
+   git clone https://github.com/piyushpriyadarshi/abc-ignite  
+   cd abc-ignite
 2. Copy Env Variable:  
    ```bash
    cp .env.example .env
@@ -89,6 +89,7 @@ The system is divided into multiple layers:
 3. Install the Dependency: 
    ```bash
    npm install
+   
    `
 4. Run the Project: 
    ```bash
