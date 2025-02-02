@@ -1,0 +1,27 @@
+import { date } from "zod"
+
+
+booking
+name
+email
+classid
+date -> future date
+
+
+class User {
+    name: string
+    email: string
+}
+
+1.find the class_instance id for that classid and that date
+2. check if the class_instance is full{
+    if full, return error message
+}else {
+    if not full, create a booking
+
+}
+
+
+
+
+
