@@ -59,20 +59,19 @@ The system is divided into multiple layers:
 
 ### Classes  
 
-- `POST /classes` - Create a new class.  
-- `GET /classes` - Retrieve a list of all classes.  
-- `GET /classes/:id` - Retrieve a specific class by ID.  
-- `PUT /classes/:id` - Update a specific class by ID.  
-- `DELETE /classes/:id` - Delete a specific class by ID.  
+- `POST /api/v1/classes` - Create a new class.  
+- `GET /api/v1/classes` - Retrieve a list of all classes.  
+- `GET /api/v1/classes/:id` - Retrieve a specific class by ID.  
+- `PUT /api/v1//classes/:id` - Update a specific class by ID.   (Not implemented fully)
+- `DELETE /api/v1/classes/:id` - Delete a specific class by ID.  (Not implemented fully)
 
 ### Bookings  
 
-- `POST /bookings` - Create a new booking.  
-- `GET /bookings` - Retrieve a list of all bookings.  
-- `GET /bookings/:id` - Retrieve a specific booking by ID.  
-- `PUT /bookings/:id` - Update a specific booking by ID.  
-- `DELETE /bookings/:id` - Delete a specific booking by ID.  
-
+- `POST /api/v1/bookings` - Create a new booking.  
+- `GET /api/v1/bookings/search?username=piyush&startDate=2024-02-02` - Search bookings .  
+- `GET /api/v1/bookings/:id` - Retrieve a specific booking by ID.  
+- `PUT /api/v1/bookings/:id` - Update a specific booking by ID.  (Not implemented fully)
+- `DELETE /api/v1/bookings/:id` - Delete a specific booking by ID.
 
 ---
 
